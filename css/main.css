@@ -60,6 +60,110 @@ TABLE OF CONTENTS:
 }
 
 
+/*-------------------
+4.0	ELEMENTS
+---------------------*/
+
+
+/*---FORMS---*/
+
+label {
+	display: none;
+}
+
+#domain-name {
+	width: 430px;
+	padding: 20px;
+}
+
+select {
+	width: 165px;
+}
+
+
+
+/*---LISTS---*/
+
+.col-feat ul {
+	list-style-type: none;
+}
+
+.col-1-4 ul {
+	list-style-type: none;
+}
+
+.col-1-4 a {
+	color: #909aad;
+}
+
+
+/*---MEDIA---*/
+
+#bg-hero {
+	background: url("../img/hero.jpg"), no-repeat, center;
+}
+
+
+/*---TABLES---*/
+
+
+/*---TYPOGRAPHY---*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#bg-hero p, h4 {
+	color: #fff;
+}
+
+
+
+
+/*-------------------------
+5.0	OBJECTS
+---------------------------*/
+
+#bg-wht {
+	width: 360px;
+}
+
+
+/*-------------------------
+6.0	COMPONENTS
+---------------------------*/
+
+
+/*---BUTTONS---*/
+
+
+/*---HEADER---*/
+
+
+/*---NAVIGATION---*/
+
+header nav li, #social li {
+	display: inline-block;
+}
+
+nav li a {
+	text-decoration: none;
+}
+
+header nav {
+	text-align: center;
+}
+
+#bot-nav li {
+	background-color: #ff8261;
+}
+
+#bot-nav a {
+	color: #fff;
+}
+
+
+
 
 /*-------------------------
 7.0	UTILITIES
@@ -81,13 +185,19 @@ TABLE OF CONTENTS:
 	width: 350px;
 }
 
-.col-1-3 img {
+.col-1-3 img, .col-1-2, .col-feat, header img, .col-1-4, .col-links, #domain header {
 	float: left;
 }
 
+#top-nav {
+	float: right;
+}
+
 .col-1-3 header {
+	float: right;
 	width: 240px;
 }
+
 
 
 /*---COLORS---*/
@@ -102,4 +212,8 @@ TABLE OF CONTENTS:
 
 #bg-wht {
 	background-color: #fff;
+}
+
+footer {
+	background-color: #4c515b;
 }
