@@ -132,6 +132,11 @@ table {
 	text-align: center;
 }
 
+tbody {
+	font: 14px 'Open Sans', sans-serif;
+	color: #8d9198;
+}
+
 tbody tr:first-child {
 	font: 900 14px 'Open Sans', sans-serif;
 	text-transform: uppercase;
@@ -141,6 +146,17 @@ tbody tr:first-child {
 
 tbody tr:first-child td {
 	padding: 10px 20px;
+}
+
+td {
+	padding: 10px 0;
+}
+
+tfoot {
+	font: 900 14px 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #ff8261;
 }
 
 th {
@@ -196,6 +212,11 @@ body {
 	font: 900 60px 'Open Sans', sans-serif;
 }
 
+footer nav, footer p {
+	font: 14px 'Open Sans', sans-serif;
+	color:  #a0a9b6;
+}
+
 #top-nav {
 	font: 14px 'Open Sans', sans-serif;
 }
@@ -246,6 +267,15 @@ body {
 	float: left;
 }
 
+.col-1-4 {
+	margin-left: 110px;
+}
+
+.col-1-4:first-child {
+	margin-left: 0px;
+	padding-top: 40px;
+}
+
 .col-feat:last-child {
 	margin-left: 60px;
 }
@@ -255,7 +285,8 @@ body {
 	padding: 30px 0px;
 }
 
-#hot {
+
+footer, #hosting, #hot {
 	padding: 50px 0;
 }
 
@@ -267,7 +298,7 @@ body {
 #hot li {
 	margin-bottom: 20px;
 }
-#top-nav, #btn-srch, .col-1-3:last-child {
+#top-nav, #btn-srch, .col-1-3:last-child, #social {
 	float: right;
 }
 
@@ -324,9 +355,17 @@ h3 {
 	margin-top: 0px;
 }
 
+h4 {
+	font: 900 14px 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+}
+
 
 
 /*---NAVIGATION---*/
+
+footer nav li
 
 header nav {
 	text-align: center;
@@ -336,7 +375,7 @@ header nav li, #social li {
 	display: inline-block;
 }
 
-header nav ul {
+footer nav ul, header nav ul {
 	padding: 0px;
 }
 
